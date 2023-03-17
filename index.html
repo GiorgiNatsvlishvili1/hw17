@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2B2B2B;">
+        <div class="container-fluid">
+            <div class="logo" >
+               <a href="https://www.figma.com/file/23ePDiiiJVZXDJiqA5gjIA/%E1%83%93%E1%83%90
+               %E1%83%95%E1%83%90%E1%83%9A%E1%83%94%E1%83%91%E1%83%90-16?node-id=0%3A1673&t=HKcYaRLoGldAWWSx-0"> <img src="users/logo.png"></a>
+                
+            </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 11.5858 3.33579 11.25 3.75 11.25H20.25C20.6642 11.25 21 11.5858 21 12C21 12.4142 20.6642 12.75 20.25 12.75H3.75C3.33579 12.75 3 12.4142 3 12Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 6C3 5.58579 3.33579 5.25 3.75 5.25H15C15.4142 5.25 15.75 5.58579 15.75 6C15.75 6.41421 15.4142 6.75 15 6.75H3.75C3.33579 6.75 3 6.41421 3 6Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 18C3 17.5858 3.33579 17.25 3.75 17.25H15C15.4142 17.25 15.75 17.5858 15.75 18C15.75 18.4142 15.4142 18.75 15 18.75H3.75C3.33579 18.75 3 18.4142 3 18Z" fill="white"/>
+                        </svg>    
+                </button>   
+                 <div class="collapse navbar-collapse text-light" id="mynav">
+                     <ul class="navbar-nav ms-auto" style="justify-content: center;" >
+                         <li class="nav-item" style="margin-right: 30px;">
+                            <a href="#" style="padding-top: 19px;" class="nav-link text-light">Marketplace</a>
+                        </li>
+                        <li class="nav-item" style="margin-right: 30px;">
+                            <a href="#" style="padding-top: 19px;" class="nav-link text-light">Rankings</a>
+                        </li>
+                        <li class="nav-item" style="margin-right: 30px;">
+                             <a href="#" style="padding-top: 19px;" class="nav-link text-light">Connect a wallet</a>
+                        </li>                
+                        <li class="nav-item"style="padding-top: 8px;">                      
+                                <button type="button"  id="button5"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 13.1245C8.57374 13.1245 7.17251 13.5 5.93728 14.2132C4.70205 14.9265 3.67634 15.9523 2.96327 17.1877C2.79071 17.4866 2.40848 17.5891 2.10953 17.4165C1.81058 17.2439 1.70812 16.8617 1.88068 16.5628C2.70345 15.1374 3.88696 13.9537 5.31223 13.1307C6.7375 12.3078 8.3543 11.8745 10.0001 11.8745C11.6459 11.8745 13.2627 12.3078 14.688 13.1307C16.1132 13.9537 17.2968 15.1374 18.1195 16.5628C18.2921 16.8617 18.1896 17.2439 17.8907 17.4165C17.5917 17.5891 17.2095 17.4866 17.0369 17.1877C16.3239 15.9523 15.2982 14.9265 14.0629 14.2132C12.8277 13.5 11.4265 13.1245 10.0001 13.1245Z" fill="white"/>
+                                    </svg>
+                                    Sign Up</button>                             
+                        </li>
+                    </ul>    
+                </div>
+         </div>
+    </nav>
+    <div class="container  pt-5  pb-5">
+        <h1 class="pt-5" style="font-size: 61px; color: #ffffff;">Top Creators</h1>
+        <p style="font-size: 27px; color: #ffffff;">Check out top ranking NFT artists on the NFT Marketplace.</p>
+    </div>
+    <div class="container" id="end1">
+        <div class="row text-center  gx-0">
+            <div class="col-3 pb-3" style="color: #ffffff; border-bottom: 2px solid #858584; font-size: 22px;">
+                <b>Today</b>
+            </div>
+            <div class="col-3" style="color: #858584; font-size: 22px;">
+                <b>This Week</b>
+            </div>
+            <div class="col-3" style="color: #858584; font-size: 22px;">
+                <b>This Month</b>
+            </div>
+            <div class="col-3" style="color: #858584; font-size: 22px;">
+                <b>All Time</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="container gx-5" id="end">
+        <div class="row text-center">
+            <div class="col-3 pb-3" style="color: #ffffff; border-bottom: 2px solid #858584; font-size: 22px;">
+                <b>1d</b>
+            </div>
+            <div class="col-3" style="color: #858584; font-size: 22px;">
+                <b>7d</b>
+            </div>
+            <div class="col-3" style="color: #858584; font-size: 22px;">
+                <b>30d</b>
+            </div>
+            <div class="col-3" style="color: #858584; font-size: 22px;">
+                <b>All Time</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5 gx-5">
+        <div class="row pt-3" style="border: 1px solid #3B3B3B; border-radius: 20px;">
+            <div class="col-1 "style="text-align: right;">
+                <p style="color: #858584;text-align: center;">#</p>
+            </div>
+            <div class="col-4 " style="text-align: left;">
+                <p style="color: #858584;">Artist</p>
+            </div>
+            <div class="col-2 "style="text-align: center;" >
+                <p id="end1" style="color: #858584;">Changet</p>
+            </div>
+            <div  class="col-2"style="text-align: center;">
+                <p id="end1" style="color: #858584;">NFTs  Sold</p>
+            </div>
+            <div class="col-3"style="text-align: center;">
+                <p style="color: #858584;">Volume</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container gx-5 pt-3" id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M14.4056 19.752V10.392H14.2136L12.3736 14.6H11.0456V14.504L13.1416 9.8H15.7496V19.752H18.9176V21H11.2376V19.752H14.4056Z" fill="#858584"/>
+                        </svg> 
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (45).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Jaydon Ekstrom Bothman</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M18.8056 19.752V21H11.2216V19.08C11.2216 18.568 11.3069 18.1253 11.4776 17.752C11.6482 17.368 11.8882 17.0427 12.1976 16.776C12.5176 16.4987 12.9016 16.2693 13.3496 16.088C13.7976 15.9067 14.3042 15.752 14.8696 15.624C15.8189 15.4107 16.5016 15.1067 16.9176 14.712C17.3442 14.3173 17.5576 13.832 17.5576 13.256V13.16C17.5576 12.872 17.5096 12.5893 17.4136 12.312C17.3176 12.0347 17.1682 11.784 16.9656 11.56C16.7629 11.336 16.5016 11.16 16.1816 11.032C15.8722 10.8933 15.4989 10.824 15.0616 10.824C14.2402 10.824 13.6002 11.0747 13.1416 11.576C12.6936 12.0773 12.4696 12.744 12.4696 13.576V14.28H11.1256V13.48C11.1256 12.968 11.2109 12.4773 11.3816 12.008C11.5522 11.5387 11.8029 11.1227 12.1336 10.76C12.4642 10.3973 12.8749 10.1093 13.3656 9.896C13.8562 9.68267 14.4216 9.576 15.0616 9.576C15.7122 9.576 16.2776 9.67733 16.7576 9.88C17.2376 10.072 17.6376 10.3333 17.9576 10.664C18.2776 10.984 18.5122 11.352 18.6616 11.768C18.8216 12.1733 18.9016 12.5893 18.9016 13.016V13.304C18.9016 14.1573 18.6349 14.888 18.1016 15.496C17.5682 16.0933 16.7149 16.52 15.5416 16.776C14.5176 17 13.7656 17.2987 13.2856 17.672C12.8056 18.0347 12.5656 18.568 12.5656 19.272V19.752H18.8056Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (65).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Ruben Carder</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M13.8936 15.432V13.576L17.5416 11.24V11.048H11.2056V9.8H18.6936V11.848L15.0456 14.184V14.376H15.6856C16.1122 14.376 16.5229 14.4453 16.9176 14.584C17.3122 14.7227 17.6589 14.9253 17.9576 15.192C18.2669 15.4587 18.5122 15.7893 18.6936 16.184C18.8856 16.568 18.9816 17.016 18.9816 17.528V17.816C18.9816 18.296 18.8856 18.744 18.6936 19.16C18.5016 19.576 18.2349 19.9387 17.8936 20.248C17.5522 20.5467 17.1469 20.7867 16.6776 20.968C16.2189 21.1387 15.7176 21.224 15.1736 21.224C14.5442 21.224 13.9789 21.128 13.4776 20.936C12.9762 20.744 12.5496 20.4827 12.1976 20.152C11.8456 19.8107 11.5736 19.416 11.3816 18.968C11.2002 18.5093 11.1096 18.024 11.1096 17.512V16.648H12.4536V17.416C12.4536 17.8213 12.5176 18.184 12.6456 18.504C12.7842 18.8133 12.9709 19.08 13.2056 19.304C13.4509 19.5173 13.7389 19.6827 14.0696 19.8C14.4002 19.9173 14.7576 19.976 15.1416 19.976C15.4936 19.976 15.8189 19.9173 16.1176 19.8C16.4269 19.6827 16.6936 19.5227 16.9176 19.32C17.1416 19.1067 17.3176 18.8613 17.4456 18.584C17.5736 18.296 17.6376 17.992 17.6376 17.672V17.576C17.6376 16.904 17.4242 16.3813 16.9976 16.008C16.5709 15.624 16.0376 15.432 15.3976 15.432H13.8936Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (46).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Alfredo Septimus</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M14.8056 9.8H17.4136V17.64H19.1416V18.888H17.4136V21H16.0696V18.888H10.8856V17.032L14.8056 9.8ZM12.0376 17.448V17.64H16.0696V10.376H15.8776L12.0376 17.448Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (48).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Davis Franci</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M11.3496 15.72V9.8H18.3576V11.048H12.6616V15.048H12.8536C12.9602 14.8347 13.0989 14.632 13.2696 14.44C13.4402 14.2373 13.6376 14.0613 13.8616 13.912C14.0962 13.7627 14.3576 13.6453 14.6456 13.56C14.9336 13.464 15.2536 13.416 15.6056 13.416C16.1176 13.416 16.5869 13.5013 17.0136 13.672C17.4509 13.8427 17.8242 14.0827 18.1336 14.392C18.4429 14.7013 18.6829 15.0747 18.8536 15.512C19.0349 15.9493 19.1256 16.4347 19.1256 16.968V17.256C19.1256 17.7893 19.0402 18.296 18.8696 18.776C18.6989 19.2453 18.4482 19.6667 18.1176 20.04C17.7869 20.4027 17.3762 20.6907 16.8856 20.904C16.3949 21.1173 15.8296 21.224 15.1896 21.224C14.5389 21.224 13.9629 21.128 13.4616 20.936C12.9602 20.744 12.5389 20.4773 12.1976 20.136C11.8562 19.7947 11.5949 19.3947 11.4136 18.936C11.2429 18.4667 11.1576 17.96 11.1576 17.416V16.968H12.5016V17.32C12.5016 18.2053 12.7469 18.872 13.2376 19.32C13.7389 19.7573 14.3896 19.976 15.1896 19.976C15.6162 19.976 15.9896 19.9013 16.3096 19.752C16.6402 19.592 16.9122 19.384 17.1256 19.128C17.3496 18.8613 17.5149 18.5573 17.6216 18.216C17.7282 17.864 17.7816 17.5013 17.7816 17.128V17.032C17.7816 16.7013 17.7229 16.392 17.6056 16.104C17.4989 15.816 17.3442 15.5653 17.1416 15.352C16.9496 15.1387 16.7096 14.9733 16.4216 14.856C16.1442 14.728 15.8402 14.664 15.5096 14.664C15.2856 14.664 15.0776 14.696 14.8856 14.76C14.7042 14.824 14.5442 14.9093 14.4056 15.016C14.2669 15.112 14.1496 15.224 14.0536 15.352C13.9682 15.48 13.9096 15.6027 13.8776 15.72H11.3496Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (49).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Livia Rosser</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M17.3496 13.064C17.3496 12.3707 17.1362 11.816 16.7096 11.4C16.2829 10.9733 15.6909 10.76 14.9336 10.76C14.5709 10.76 14.2349 10.824 13.9256 10.952C13.6269 11.08 13.3656 11.2667 13.1416 11.512C12.9282 11.7467 12.7576 12.0293 12.6296 12.36C12.5122 12.6907 12.4536 13.0533 12.4536 13.448V15.112H12.6456C12.9016 14.6427 13.2642 14.2747 13.7336 14.008C14.2136 13.7413 14.7469 13.608 15.3336 13.608C15.8456 13.608 16.3202 13.6933 16.7576 13.864C17.1949 14.024 17.5682 14.264 17.8776 14.584C18.1976 14.904 18.4429 15.2933 18.6136 15.752C18.7949 16.2 18.8856 16.712 18.8856 17.288V17.48C18.8856 18.0347 18.7842 18.5413 18.5816 19C18.3896 19.4587 18.1176 19.8533 17.7656 20.184C17.4242 20.5147 17.0136 20.7707 16.5336 20.952C16.0642 21.1333 15.5522 21.224 14.9976 21.224C14.4429 21.224 13.9256 21.1333 13.4456 20.952C12.9762 20.7707 12.5656 20.52 12.2136 20.2C11.8722 19.8693 11.6002 19.48 11.3976 19.032C11.2056 18.5733 11.1096 18.072 11.1096 17.528V13.448C11.1096 12.8613 11.2109 12.328 11.4136 11.848C11.6162 11.368 11.8936 10.9627 12.2456 10.632C12.5976 10.2907 13.0029 10.0293 13.4616 9.848C13.9309 9.66667 14.4322 9.576 14.9656 9.576C15.4989 9.576 15.9949 9.656 16.4536 9.816C16.9122 9.976 17.3069 10.2107 17.6376 10.52C17.9682 10.8187 18.2242 11.1867 18.4056 11.624C18.5976 12.0507 18.6936 12.5307 18.6936 13.064H17.3496ZM14.9976 20.04C15.3816 20.04 15.7282 19.9813 16.0376 19.864C16.3576 19.736 16.6296 19.56 16.8536 19.336C17.0776 19.112 17.2482 18.8453 17.3656 18.536C17.4829 18.2267 17.5416 17.8853 17.5416 17.512V17.32C17.5416 16.9467 17.4776 16.6053 17.3496 16.296C17.2216 15.9867 17.0456 15.72 16.8216 15.496C16.5976 15.272 16.3256 15.1013 16.0056 14.984C15.6962 14.856 15.3602 14.792 14.9976 14.792C14.6349 14.792 14.2989 14.856 13.9896 14.984C13.6802 15.112 13.4082 15.288 13.1736 15.512C12.9496 15.736 12.7736 15.9973 12.6456 16.296C12.5176 16.5947 12.4536 16.9147 12.4536 17.256V17.56C12.4536 17.912 12.5122 18.2427 12.6296 18.552C12.7469 18.8507 12.9176 19.112 13.1416 19.336C13.3656 19.56 13.6322 19.736 13.9416 19.864C14.2616 19.9813 14.6136 20.04 14.9976 20.04Z" fill="#858584"/>
+                        </svg>
+                         
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (50).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Kianna Donin</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M11.2536 9.8H18.7416V11.752L14.0216 18.888C13.7976 19.2293 13.6269 19.5227 13.5096 19.768C13.3922 20.0133 13.3336 20.264 13.3336 20.52V21H12.0216V20.424C12.0216 20.232 12.0376 20.0507 12.0696 19.88C12.1122 19.7093 12.1709 19.5387 12.2456 19.368C12.3309 19.1867 12.4322 19 12.5496 18.808C12.6776 18.6053 12.8269 18.376 12.9976 18.12L17.5896 11.24V11.048H11.2536V9.8Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (51).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Phillip Lipshutz</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M14.8536 21.224C14.2882 21.224 13.7762 21.1493 13.3176 21C12.8589 20.84 12.4642 20.6267 12.1336 20.36C11.8029 20.0827 11.5469 19.7627 11.3656 19.4C11.1949 19.0267 11.1096 18.6213 11.1096 18.184V17.992C11.1096 17.608 11.1682 17.2667 11.2856 16.968C11.4029 16.6693 11.5576 16.408 11.7496 16.184C11.9416 15.96 12.1602 15.7733 12.4056 15.624C12.6616 15.4747 12.9229 15.3627 13.1896 15.288V15.096C12.9442 15.0213 12.7149 14.9093 12.5016 14.76C12.2882 14.6107 12.0962 14.4347 11.9256 14.232C11.7656 14.0293 11.6376 13.8 11.5416 13.544C11.4456 13.2773 11.3976 12.9893 11.3976 12.68V12.488C11.3976 12.0613 11.4829 11.672 11.6536 11.32C11.8242 10.9573 12.0642 10.648 12.3736 10.392C12.6936 10.136 13.0669 9.93867 13.4936 9.8C13.9309 9.65067 14.4162 9.576 14.9496 9.576H15.0456C15.5682 9.576 16.0482 9.65067 16.4856 9.8C16.9229 9.93867 17.2962 10.136 17.6056 10.392C17.9256 10.648 18.1709 10.9573 18.3416 11.32C18.5122 11.672 18.5976 12.0613 18.5976 12.488V12.68C18.5976 12.9893 18.5496 13.2773 18.4536 13.544C18.3576 13.8 18.2242 14.0293 18.0536 14.232C17.8936 14.4347 17.7016 14.6107 17.4776 14.76C17.2642 14.9093 17.0402 15.0213 16.8056 15.096V15.288C17.0722 15.3627 17.3282 15.4747 17.5736 15.624C17.8296 15.7733 18.0536 15.96 18.2456 16.184C18.4376 16.408 18.5922 16.6693 18.7096 16.968C18.8269 17.2667 18.8856 17.608 18.8856 17.992V18.184C18.8856 18.6213 18.7949 19.0267 18.6136 19.4C18.4429 19.7627 18.1922 20.0827 17.8616 20.36C17.5309 20.6267 17.1362 20.84 16.6776 21C16.2189 21.1493 15.7069 21.224 15.1416 21.224H14.8536ZM15.0936 20.008C15.8189 20.008 16.4056 19.8213 16.8536 19.448C17.3122 19.0747 17.5416 18.5893 17.5416 17.992V17.896C17.5416 17.2347 17.3069 16.7227 16.8376 16.36C16.3789 15.9973 15.7816 15.816 15.0456 15.816H14.9496C14.2136 15.816 13.6109 15.9973 13.1416 16.36C12.6829 16.7227 12.4536 17.2347 12.4536 17.896V17.992C12.4536 18.5893 12.6776 19.0747 13.1256 19.448C13.5842 19.8213 14.1762 20.008 14.9016 20.008H15.0936ZM14.9976 14.568C15.6696 14.568 16.2136 14.392 16.6296 14.04C17.0456 13.688 17.2536 13.2453 17.2536 12.712V12.616C17.2536 12.072 17.0456 11.6347 16.6296 11.304C16.2242 10.9627 15.6802 10.792 14.9976 10.792C14.3149 10.792 13.7656 10.9627 13.3496 11.304C12.9442 11.6347 12.7416 12.072 12.7416 12.616V12.712C12.7416 13.2453 12.9496 13.688 13.3656 14.04C13.7816 14.392 14.3256 14.568 14.9976 14.568Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (52).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Maria Rosser</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M12.6456 17.736C12.6456 18.4293 12.8589 18.9893 13.2856 19.416C13.7122 19.832 14.3042 20.04 15.0616 20.04C15.4242 20.04 15.7549 19.976 16.0536 19.848C16.3629 19.72 16.6242 19.5387 16.8376 19.304C17.0616 19.0587 17.2322 18.776 17.3496 18.456C17.4776 18.1253 17.5416 17.7573 17.5416 17.352V15.688H17.3496C17.1042 16.1573 16.7522 16.5253 16.2936 16.792C15.8349 17.0587 15.3016 17.192 14.6936 17.192C14.1709 17.192 13.6909 17.112 13.2536 16.952C12.8162 16.792 12.4376 16.5573 12.1176 16.248C11.7976 15.928 11.5469 15.544 11.3656 15.096C11.1949 14.648 11.1096 14.136 11.1096 13.56V13.368C11.1096 12.8133 11.2056 12.3067 11.3976 11.848C11.5896 11.3787 11.8562 10.9787 12.1976 10.648C12.5496 10.3067 12.9602 10.0453 13.4296 9.864C13.9096 9.672 14.4322 9.576 14.9976 9.576C15.5629 9.576 16.0802 9.672 16.5496 9.864C17.0296 10.0453 17.4402 10.3013 17.7816 10.632C18.1336 10.9627 18.4056 11.3573 18.5976 11.816C18.7896 12.2747 18.8856 12.776 18.8856 13.32V17.352C18.8856 17.9493 18.7842 18.488 18.5816 18.968C18.3896 19.4373 18.1176 19.8427 17.7656 20.184C17.4242 20.5147 17.0189 20.7707 16.5496 20.952C16.0802 21.1333 15.5736 21.224 15.0296 21.224C14.4856 21.224 13.9842 21.144 13.5256 20.984C13.0669 20.824 12.6722 20.5947 12.3416 20.296C12.0109 19.9867 11.7549 19.6187 11.5736 19.192C11.3922 18.7547 11.3016 18.2693 11.3016 17.736H12.6456ZM14.9976 10.76C14.6136 10.76 14.2616 10.824 13.9416 10.952C13.6322 11.08 13.3656 11.2613 13.1416 11.496C12.9176 11.7307 12.7469 12.008 12.6296 12.328C12.5122 12.6373 12.4536 12.9733 12.4536 13.336V13.528C12.4536 13.9013 12.5176 14.2427 12.6456 14.552C12.7736 14.8507 12.9496 15.112 13.1736 15.336C13.3976 15.5493 13.6642 15.7147 13.9736 15.832C14.2829 15.9493 14.6242 16.008 14.9976 16.008C15.3602 16.008 15.6962 15.9493 16.0056 15.832C16.3149 15.704 16.5816 15.5333 16.8056 15.32C17.0402 15.1067 17.2216 14.8507 17.3496 14.552C17.4776 14.2533 17.5416 13.9333 17.5416 13.592V13.288C17.5416 12.936 17.4829 12.6053 17.3656 12.296C17.2482 11.9867 17.0776 11.72 16.8536 11.496C16.6296 11.2613 16.3576 11.08 16.0376 10.952C15.7282 10.824 15.3816 10.76 14.9976 10.76Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (53).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Kianna Stanton</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM15.96 14.152C15.96 12.7013 16.3067 11.576 17 10.776C17.6933 9.976 18.6587 9.576 19.896 9.576C21.1333 9.576 22.0987 9.976 22.792 10.776C23.4853 11.576 23.832 12.7013 23.832 14.152V16.648C23.832 18.1413 23.4853 19.2773 22.792 20.056C22.0987 20.8347 21.1333 21.224 19.896 21.224C18.6587 21.224 17.6933 20.8347 17 20.056C16.3067 19.2773 15.96 18.1413 15.96 16.648V14.152ZM19.896 20.008C20.76 20.008 21.4053 19.7093 21.832 19.112C22.2693 18.504 22.488 17.6507 22.488 16.552V14.248C22.488 13.736 22.4347 13.272 22.328 12.856C22.2213 12.4293 22.056 12.0667 21.832 11.768C21.6187 11.4587 21.3467 11.2187 21.016 11.048C20.696 10.8773 20.3227 10.792 19.896 10.792C19.4587 10.792 19.08 10.8773 18.76 11.048C18.44 11.2187 18.168 11.4587 17.944 11.768C17.7307 12.0667 17.5707 12.4293 17.464 12.856C17.3573 13.272 17.304 13.736 17.304 14.248V16.552C17.304 17.6507 17.5173 18.504 17.944 19.112C18.3813 19.7093 19.032 20.008 19.896 20.008ZM18.872 15.4C18.872 15.1227 18.9733 14.8827 19.176 14.68C19.3787 14.4773 19.6187 14.376 19.896 14.376C20.1733 14.376 20.4133 14.4773 20.616 14.68C20.8187 14.8827 20.92 15.1227 20.92 15.4C20.92 15.6773 20.8187 15.9173 20.616 16.12C20.4133 16.3227 20.1733 16.424 19.896 16.424C19.6187 16.424 19.3787 16.3227 19.176 16.12C18.9733 15.9173 18.872 15.6773 18.872 15.4Z" fill="#858584"/>
+                        </svg>
+                        
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (54).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Angel Lubin</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM19.304 19.752V10.392H19.112L17.272 14.6H15.944V14.504L18.04 9.8H20.648V19.752H23.816V21H16.136V19.752H19.304Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (55).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Allison Torff</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM23.704 19.752V21H16.12V19.08C16.12 18.568 16.2053 18.1253 16.376 17.752C16.5467 17.368 16.7867 17.0427 17.096 16.776C17.416 16.4987 17.8 16.2693 18.248 16.088C18.696 15.9067 19.2027 15.752 19.768 15.624C20.7173 15.4107 21.4 15.1067 21.816 14.712C22.2427 14.3173 22.456 13.832 22.456 13.256V13.16C22.456 12.872 22.408 12.5893 22.312 12.312C22.216 12.0347 22.0667 11.784 21.864 11.56C21.6613 11.336 21.4 11.16 21.08 11.032C20.7707 10.8933 20.3973 10.824 19.96 10.824C19.1387 10.824 18.4987 11.0747 18.04 11.576C17.592 12.0773 17.368 12.744 17.368 13.576V14.28H16.024V13.48C16.024 12.968 16.1093 12.4773 16.28 12.008C16.4507 11.5387 16.7013 11.1227 17.032 10.76C17.3627 10.3973 17.7733 10.1093 18.264 9.896C18.7547 9.68267 19.32 9.576 19.96 9.576C20.6107 9.576 21.176 9.67733 21.656 9.88C22.136 10.072 22.536 10.3333 22.856 10.664C23.176 10.984 23.4107 11.352 23.56 11.768C23.72 12.1733 23.8 12.5893 23.8 13.016V13.304C23.8 14.1573 23.5333 14.888 23 15.496C22.4667 16.0933 21.6133 16.52 20.44 16.776C19.416 17 18.664 17.2987 18.184 17.672C17.704 18.0347 17.464 18.568 17.464 19.272V19.752H23.704Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (56).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Davis Workman</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM18.792 15.432V13.576L22.44 11.24V11.048H16.104V9.8H23.592V11.848L19.944 14.184V14.376H20.584C21.0107 14.376 21.4213 14.4453 21.816 14.584C22.2107 14.7227 22.5573 14.9253 22.856 15.192C23.1653 15.4587 23.4107 15.7893 23.592 16.184C23.784 16.568 23.88 17.016 23.88 17.528V17.816C23.88 18.296 23.784 18.744 23.592 19.16C23.4 19.576 23.1333 19.9387 22.792 20.248C22.4507 20.5467 22.0453 20.7867 21.576 20.968C21.1173 21.1387 20.616 21.224 20.072 21.224C19.4427 21.224 18.8773 21.128 18.376 20.936C17.8747 20.744 17.448 20.4827 17.096 20.152C16.744 19.8107 16.472 19.416 16.28 18.968C16.0987 18.5093 16.008 18.024 16.008 17.512V16.648H17.352V17.416C17.352 17.8213 17.416 18.184 17.544 18.504C17.6827 18.8133 17.8693 19.08 18.104 19.304C18.3493 19.5173 18.6373 19.6827 18.968 19.8C19.2987 19.9173 19.656 19.976 20.04 19.976C20.392 19.976 20.7173 19.9173 21.016 19.8C21.3253 19.6827 21.592 19.5227 21.816 19.32C22.04 19.1067 22.216 18.8613 22.344 18.584C22.472 18.296 22.536 17.992 22.536 17.672V17.576C22.536 16.904 22.3227 16.3813 21.896 16.008C21.4693 15.624 20.936 15.432 20.296 15.432H18.792Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (57).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Lindsey Lipshutz</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM19.704 9.8H22.312V17.64H24.04V18.888H22.312V21H20.968V18.888H15.784V17.032L19.704 9.8ZM16.936 17.448V17.64H20.968V10.376H20.776L16.936 17.448Z" fill="#858584"/>
+                        </svg>
+                         
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (58).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Randy Carder</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM16.248 15.72V9.8H23.256V11.048H17.56V15.048H17.752C17.8587 14.8347 17.9973 14.632 18.168 14.44C18.3387 14.2373 18.536 14.0613 18.76 13.912C18.9947 13.7627 19.256 13.6453 19.544 13.56C19.832 13.464 20.152 13.416 20.504 13.416C21.016 13.416 21.4853 13.5013 21.912 13.672C22.3493 13.8427 22.7227 14.0827 23.032 14.392C23.3413 14.7013 23.5813 15.0747 23.752 15.512C23.9333 15.9493 24.024 16.4347 24.024 16.968V17.256C24.024 17.7893 23.9387 18.296 23.768 18.776C23.5973 19.2453 23.3467 19.6667 23.016 20.04C22.6853 20.4027 22.2747 20.6907 21.784 20.904C21.2933 21.1173 20.728 21.224 20.088 21.224C19.4373 21.224 18.8613 21.128 18.36 20.936C17.8587 20.744 17.4373 20.4773 17.096 20.136C16.7547 19.7947 16.4933 19.3947 16.312 18.936C16.1413 18.4667 16.056 17.96 16.056 17.416V16.968H17.4V17.32C17.4 18.2053 17.6453 18.872 18.136 19.32C18.6373 19.7573 19.288 19.976 20.088 19.976C20.5147 19.976 20.888 19.9013 21.208 19.752C21.5387 19.592 21.8107 19.384 22.024 19.128C22.248 18.8613 22.4133 18.5573 22.52 18.216C22.6267 17.864 22.68 17.5013 22.68 17.128V17.032C22.68 16.7013 22.6213 16.392 22.504 16.104C22.3973 15.816 22.2427 15.5653 22.04 15.352C21.848 15.1387 21.608 14.9733 21.32 14.856C21.0427 14.728 20.7387 14.664 20.408 14.664C20.184 14.664 19.976 14.696 19.784 14.76C19.6027 14.824 19.4427 14.9093 19.304 15.016C19.1653 15.112 19.048 15.224 18.952 15.352C18.8667 15.48 18.808 15.6027 18.776 15.72H16.248Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (59).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Lydia Culhane</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM22.248 13.064C22.248 12.3707 22.0347 11.816 21.608 11.4C21.1813 10.9733 20.5893 10.76 19.832 10.76C19.4693 10.76 19.1333 10.824 18.824 10.952C18.5253 11.08 18.264 11.2667 18.04 11.512C17.8267 11.7467 17.656 12.0293 17.528 12.36C17.4107 12.6907 17.352 13.0533 17.352 13.448V15.112H17.544C17.8 14.6427 18.1627 14.2747 18.632 14.008C19.112 13.7413 19.6453 13.608 20.232 13.608C20.744 13.608 21.2187 13.6933 21.656 13.864C22.0933 14.024 22.4667 14.264 22.776 14.584C23.096 14.904 23.3413 15.2933 23.512 15.752C23.6933 16.2 23.784 16.712 23.784 17.288V17.48C23.784 18.0347 23.6827 18.5413 23.48 19C23.288 19.4587 23.016 19.8533 22.664 20.184C22.3227 20.5147 21.912 20.7707 21.432 20.952C20.9627 21.1333 20.4507 21.224 19.896 21.224C19.3413 21.224 18.824 21.1333 18.344 20.952C17.8747 20.7707 17.464 20.52 17.112 20.2C16.7707 19.8693 16.4987 19.48 16.296 19.032C16.104 18.5733 16.008 18.072 16.008 17.528V13.448C16.008 12.8613 16.1093 12.328 16.312 11.848C16.5147 11.368 16.792 10.9627 17.144 10.632C17.496 10.2907 17.9013 10.0293 18.36 9.848C18.8293 9.66667 19.3307 9.576 19.864 9.576C20.3973 9.576 20.8933 9.656 21.352 9.816C21.8107 9.976 22.2053 10.2107 22.536 10.52C22.8667 10.8187 23.1227 11.1867 23.304 11.624C23.496 12.0507 23.592 12.5307 23.592 13.064H22.248ZM19.896 20.04C20.28 20.04 20.6267 19.9813 20.936 19.864C21.256 19.736 21.528 19.56 21.752 19.336C21.976 19.112 22.1467 18.8453 22.264 18.536C22.3813 18.2267 22.44 17.8853 22.44 17.512V17.32C22.44 16.9467 22.376 16.6053 22.248 16.296C22.12 15.9867 21.944 15.72 21.72 15.496C21.496 15.272 21.224 15.1013 20.904 14.984C20.5947 14.856 20.2587 14.792 19.896 14.792C19.5333 14.792 19.1973 14.856 18.888 14.984C18.5787 15.112 18.3067 15.288 18.072 15.512C17.848 15.736 17.672 15.9973 17.544 16.296C17.416 16.5947 17.352 16.9147 17.352 17.256V17.56C17.352 17.912 17.4107 18.2427 17.528 18.552C17.6453 18.8507 17.816 19.112 18.04 19.336C18.264 19.56 18.5307 19.736 18.84 19.864C19.16 19.9813 19.512 20.04 19.896 20.04Z" fill="#858584"/>
+                        </svg>
+                         
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (60).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Rayna Bator</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM16.152 9.8H23.64V11.752L18.92 18.888C18.696 19.2293 18.5253 19.5227 18.408 19.768C18.2907 20.0133 18.232 20.264 18.232 20.52V21H16.92V20.424C16.92 20.232 16.936 20.0507 16.968 19.88C17.0107 19.7093 17.0693 19.5387 17.144 19.368C17.2293 19.1867 17.3307 19 17.448 18.808C17.576 18.6053 17.7253 18.376 17.896 18.12L22.488 11.24V11.048H16.152V9.8Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (61).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Jocelyn Westervelt</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM19.752 21.224C19.1867 21.224 18.6747 21.1493 18.216 21C17.7573 20.84 17.3627 20.6267 17.032 20.36C16.7013 20.0827 16.4453 19.7627 16.264 19.4C16.0933 19.0267 16.008 18.6213 16.008 18.184V17.992C16.008 17.608 16.0667 17.2667 16.184 16.968C16.3013 16.6693 16.456 16.408 16.648 16.184C16.84 15.96 17.0587 15.7733 17.304 15.624C17.56 15.4747 17.8213 15.3627 18.088 15.288V15.096C17.8427 15.0213 17.6133 14.9093 17.4 14.76C17.1867 14.6107 16.9947 14.4347 16.824 14.232C16.664 14.0293 16.536 13.8 16.44 13.544C16.344 13.2773 16.296 12.9893 16.296 12.68V12.488C16.296 12.0613 16.3813 11.672 16.552 11.32C16.7227 10.9573 16.9627 10.648 17.272 10.392C17.592 10.136 17.9653 9.93867 18.392 9.8C18.8293 9.65067 19.3147 9.576 19.848 9.576H19.944C20.4667 9.576 20.9467 9.65067 21.384 9.8C21.8213 9.93867 22.1947 10.136 22.504 10.392C22.824 10.648 23.0693 10.9573 23.24 11.32C23.4107 11.672 23.496 12.0613 23.496 12.488V12.68C23.496 12.9893 23.448 13.2773 23.352 13.544C23.256 13.8 23.1227 14.0293 22.952 14.232C22.792 14.4347 22.6 14.6107 22.376 14.76C22.1627 14.9093 21.9387 15.0213 21.704 15.096V15.288C21.9707 15.3627 22.2267 15.4747 22.472 15.624C22.728 15.7733 22.952 15.96 23.144 16.184C23.336 16.408 23.4907 16.6693 23.608 16.968C23.7253 17.2667 23.784 17.608 23.784 17.992V18.184C23.784 18.6213 23.6933 19.0267 23.512 19.4C23.3413 19.7627 23.0907 20.0827 22.76 20.36C22.4293 20.6267 22.0347 20.84 21.576 21C21.1173 21.1493 20.6053 21.224 20.04 21.224H19.752ZM19.992 20.008C20.7173 20.008 21.304 19.8213 21.752 19.448C22.2107 19.0747 22.44 18.5893 22.44 17.992V17.896C22.44 17.2347 22.2053 16.7227 21.736 16.36C21.2773 15.9973 20.68 15.816 19.944 15.816H19.848C19.112 15.816 18.5093 15.9973 18.04 16.36C17.5813 16.7227 17.352 17.2347 17.352 17.896V17.992C17.352 18.5893 17.576 19.0747 18.024 19.448C18.4827 19.8213 19.0747 20.008 19.8 20.008H19.992ZM19.896 14.568C20.568 14.568 21.112 14.392 21.528 14.04C21.944 13.688 22.152 13.2453 22.152 12.712V12.616C22.152 12.072 21.944 11.6347 21.528 11.304C21.1227 10.9627 20.5787 10.792 19.896 10.792C19.2133 10.792 18.664 10.9627 18.248 11.304C17.8427 11.6347 17.64 12.072 17.64 12.616V12.712C17.64 13.2453 17.848 13.688 18.264 14.04C18.68 14.392 19.224 14.568 19.896 14.568Z" fill="#858584"/>
+                        </svg>
+                         
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (62).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Marilyn Torff</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M9.50713 19.752V10.392H9.31512L7.47513 14.6H6.14713V14.504L8.24313 9.8H10.8511V19.752H14.0191V21H6.33913V19.752H9.50713ZM17.544 17.736C17.544 18.4293 17.7573 18.9893 18.184 19.416C18.6107 19.832 19.2027 20.04 19.96 20.04C20.3227 20.04 20.6533 19.976 20.952 19.848C21.2613 19.72 21.5227 19.5387 21.736 19.304C21.96 19.0587 22.1307 18.776 22.248 18.456C22.376 18.1253 22.44 17.7573 22.44 17.352V15.688H22.248C22.0027 16.1573 21.6507 16.5253 21.192 16.792C20.7333 17.0587 20.2 17.192 19.592 17.192C19.0693 17.192 18.5893 17.112 18.152 16.952C17.7147 16.792 17.336 16.5573 17.016 16.248C16.696 15.928 16.4453 15.544 16.264 15.096C16.0933 14.648 16.008 14.136 16.008 13.56V13.368C16.008 12.8133 16.104 12.3067 16.296 11.848C16.488 11.3787 16.7547 10.9787 17.096 10.648C17.448 10.3067 17.8587 10.0453 18.328 9.864C18.808 9.672 19.3307 9.576 19.896 9.576C20.4613 9.576 20.9787 9.672 21.448 9.864C21.928 10.0453 22.3387 10.3013 22.68 10.632C23.032 10.9627 23.304 11.3573 23.496 11.816C23.688 12.2747 23.784 12.776 23.784 13.32V17.352C23.784 17.9493 23.6827 18.488 23.48 18.968C23.288 19.4373 23.016 19.8427 22.664 20.184C22.3227 20.5147 21.9173 20.7707 21.448 20.952C20.9787 21.1333 20.472 21.224 19.928 21.224C19.384 21.224 18.8827 21.144 18.424 20.984C17.9653 20.824 17.5707 20.5947 17.24 20.296C16.9093 19.9867 16.6533 19.6187 16.472 19.192C16.2907 18.7547 16.2 18.2693 16.2 17.736H17.544ZM19.896 10.76C19.512 10.76 19.16 10.824 18.84 10.952C18.5307 11.08 18.264 11.2613 18.04 11.496C17.816 11.7307 17.6453 12.008 17.528 12.328C17.4107 12.6373 17.352 12.9733 17.352 13.336V13.528C17.352 13.9013 17.416 14.2427 17.544 14.552C17.672 14.8507 17.848 15.112 18.072 15.336C18.296 15.5493 18.5627 15.7147 18.872 15.832C19.1813 15.9493 19.5227 16.008 19.896 16.008C20.2587 16.008 20.5947 15.9493 20.904 15.832C21.2133 15.704 21.48 15.5333 21.704 15.32C21.9387 15.1067 22.12 14.8507 22.248 14.552C22.376 14.2533 22.44 13.9333 22.44 13.592V13.288C22.44 12.936 22.3813 12.6053 22.264 12.296C22.1467 11.9867 21.976 11.72 21.752 11.496C21.528 11.2613 21.256 11.08 20.936 10.952C20.6267 10.824 20.28 10.76 19.896 10.76Z" fill="#858584"/>
+                        </svg>
+                         
+                </div>          
+                <div class="col-md-4 col-8" style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (63).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Skylar Levin</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+    <div class="container gx-5 pt-3 pb-5"id="containerfirst">
+        <div class="row pt-1 pb-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b">
+                <div class="col-1  pt-3" style="text-align: center;">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="#2B2B2B"/>
+                        <path d="M13.9071 19.752V21H6.32313V19.08C6.32313 18.568 6.40846 18.1253 6.57913 17.752C6.74979 17.368 6.98979 17.0427 7.29913 16.776C7.61913 16.4987 8.00313 16.2693 8.45113 16.088C8.89913 15.9067 9.40579 15.752 9.97113 15.624C10.9205 15.4107 11.6031 15.1067 12.0191 14.712C12.4458 14.3173 12.6591 13.832 12.6591 13.256V13.16C12.6591 12.872 12.6111 12.5893 12.5151 12.312C12.4191 12.0347 12.2698 11.784 12.0671 11.56C11.8645 11.336 11.6031 11.16 11.2831 11.032C10.9738 10.8933 10.6005 10.824 10.1631 10.824C9.34179 10.824 8.70179 11.0747 8.24313 11.576C7.79513 12.0773 7.57113 12.744 7.57113 13.576V14.28H6.22713V13.48C6.22713 12.968 6.31246 12.4773 6.48313 12.008C6.65379 11.5387 6.90446 11.1227 7.23513 10.76C7.56579 10.3973 7.97646 10.1093 8.46713 9.896C8.95779 9.68267 9.52313 9.576 10.1631 9.576C10.8138 9.576 11.3791 9.67733 11.8591 9.88C12.3391 10.072 12.7391 10.3333 13.0591 10.664C13.3791 10.984 13.6138 11.352 13.7631 11.768C13.9231 12.1733 14.0031 12.5893 14.0031 13.016V13.304C14.0031 14.1573 13.7365 14.888 13.2031 15.496C12.6698 16.0933 11.8165 16.52 10.6431 16.776C9.61913 17 8.86713 17.2987 8.38713 17.672C7.90713 18.0347 7.66713 18.568 7.66713 19.272V19.752H13.9071ZM15.96 14.152C15.96 12.7013 16.3067 11.576 17 10.776C17.6933 9.976 18.6587 9.576 19.896 9.576C21.1333 9.576 22.0987 9.976 22.792 10.776C23.4853 11.576 23.832 12.7013 23.832 14.152V16.648C23.832 18.1413 23.4853 19.2773 22.792 20.056C22.0987 20.8347 21.1333 21.224 19.896 21.224C18.6587 21.224 17.6933 20.8347 17 20.056C16.3067 19.2773 15.96 18.1413 15.96 16.648V14.152ZM19.896 20.008C20.76 20.008 21.4053 19.7093 21.832 19.112C22.2693 18.504 22.488 17.6507 22.488 16.552V14.248C22.488 13.736 22.4347 13.272 22.328 12.856C22.2213 12.4293 22.056 12.0667 21.832 11.768C21.6187 11.4587 21.3467 11.2187 21.016 11.048C20.696 10.8773 20.3227 10.792 19.896 10.792C19.4587 10.792 19.08 10.8773 18.76 11.048C18.44 11.2187 18.168 11.4587 17.944 11.768C17.7307 12.0667 17.5707 12.4293 17.464 12.856C17.3573 13.272 17.304 13.736 17.304 14.248V16.552C17.304 17.6507 17.5173 18.504 17.944 19.112C18.3813 19.7093 19.032 20.008 19.896 20.008ZM18.872 15.4C18.872 15.1227 18.9733 14.8827 19.176 14.68C19.3787 14.4773 19.6187 14.376 19.896 14.376C20.1733 14.376 20.4133 14.4773 20.616 14.68C20.8187 14.8827 20.92 15.1227 20.92 15.4C20.92 15.6773 20.8187 15.9173 20.616 16.12C20.4133 16.3227 20.1733 16.424 19.896 16.424C19.6187 16.424 19.3787 16.3227 19.176 16.12C18.9733 15.9173 18.872 15.6773 18.872 15.4Z" fill="#858584"/>
+                        </svg>
+                        
+                </div>          
+                <div class="col-md-4 col-8 " style="text-align: left;">
+                    <img src="avatar/Avatar Placeholder (64).png">
+                    <b style="color: #ffffff; font-size: 16px;" id="jaydon">Terry Dorwart</b>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p  style="color: #00AC4F; text-align: center;">+1.41%</p>
+                </div>
+                <div class="col-2 pt-3 "id="end1">
+                    <p style="color: #ffffff; text-align: center;">602</p>
+                </div>
+                <div class="col-md-2 col-3 pt-3 ">
+                    <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+                </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+<div class="container gx-5  pt-3 pb-3" id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 " style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.5542 16.064V9.044H11.4102L10.0302 12.2H9.03417V12.128L10.6062 8.6H12.5622V16.064H14.9382V17H9.17817V16.064H11.5542Z" fill="#858584"/>
+                    </svg>
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (66).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Zain Dokidis</b>
+            </div>
+            <div class="col-5 pt-1 pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8542 16.064V17H9.16617V15.56C9.16617 15.176 9.23017 14.844 9.35817 14.564C9.48617 14.276 9.66617 14.032 9.89817 13.832C10.1382 13.624 10.4262 13.452 10.7622 13.316C11.0982 13.18 11.4782 13.064 11.9022 12.968C12.6142 12.808 13.1262 12.58 13.4382 12.284C13.7582 11.988 13.9182 11.624 13.9182 11.192V11.12C13.9182 10.904 13.8822 10.692 13.8102 10.484C13.7382 10.276 13.6262 10.088 13.4742 9.92C13.3222 9.752 13.1262 9.62 12.8862 9.524C12.6542 9.42 12.3742 9.368 12.0462 9.368C11.4302 9.368 10.9502 9.556 10.6062 9.932C10.2702 10.308 10.1022 10.808 10.1022 11.432V11.96H9.09417V11.36C9.09417 10.976 9.15817 10.608 9.28617 10.256C9.41417 9.904 9.60217 9.592 9.85017 9.32C10.0982 9.048 10.4062 8.832 10.7742 8.672C11.1422 8.512 11.5662 8.432 12.0462 8.432C12.5342 8.432 12.9582 8.508 13.3182 8.66C13.6782 8.804 13.9782 9 14.2182 9.248C14.4582 9.488 14.6342 9.764 14.7462 10.076C14.8662 10.38 14.9262 10.692 14.9262 11.012V11.228C14.9262 11.868 14.7262 12.416 14.3262 12.872C13.9262 13.32 13.2862 13.64 12.4062 13.832C11.6382 14 11.0742 14.224 10.7142 14.504C10.3542 14.776 10.1742 15.176 10.1742 15.704V16.064H14.8542Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (67).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Ruben Vetrovs</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.1702 12.824V11.432L13.9062 9.68V9.536H9.15417V8.6H14.7702V10.136L12.0342 11.888V12.032H12.5142C12.8342 12.032 13.1422 12.084 13.4382 12.188C13.7342 12.292 13.9942 12.444 14.2182 12.644C14.4502 12.844 14.6342 13.092 14.7702 13.388C14.9142 13.676 14.9862 14.012 14.9862 14.396V14.612C14.9862 14.972 14.9142 15.308 14.7702 15.62C14.6262 15.932 14.4262 16.204 14.1702 16.436C13.9142 16.66 13.6102 16.84 13.2582 16.976C12.9142 17.104 12.5382 17.168 12.1302 17.168C11.6582 17.168 11.2342 17.096 10.8582 16.952C10.4822 16.808 10.1622 16.612 9.89817 16.364C9.63417 16.108 9.43017 15.812 9.28617 15.476C9.15017 15.132 9.08217 14.768 9.08217 14.384V13.736H10.0902V14.312C10.0902 14.616 10.1382 14.888 10.2342 15.128C10.3382 15.36 10.4782 15.56 10.6542 15.728C10.8382 15.888 11.0542 16.012 11.3022 16.1C11.5502 16.188 11.8182 16.232 12.1062 16.232C12.3702 16.232 12.6142 16.188 12.8382 16.1C13.0702 16.012 13.2702 15.892 13.4382 15.74C13.6062 15.58 13.7382 15.396 13.8342 15.188C13.9302 14.972 13.9782 14.744 13.9782 14.504V14.432C13.9782 13.928 13.8182 13.536 13.4982 13.256C13.1782 12.968 12.7782 12.824 12.2982 12.824H11.1702Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (68).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Maren Franci</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.8542 8.6H13.8102V14.48H15.1062V15.416H13.8102V17H12.8022V15.416H8.91417V14.024L11.8542 8.6ZM9.77817 14.336V14.48H12.8022V9.032H12.6582L9.77817 14.336Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (68).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Emerson Carder</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.26217 13.04V8.6H14.5182V9.536H10.2462V12.536H10.3902C10.4702 12.376 10.5742 12.224 10.7022 12.08C10.8302 11.928 10.9782 11.796 11.1462 11.684C11.3222 11.572 11.5182 11.484 11.7342 11.42C11.9502 11.348 12.1902 11.312 12.4542 11.312C12.8382 11.312 13.1902 11.376 13.5102 11.504C13.8382 11.632 14.1182 11.812 14.3502 12.044C14.5822 12.276 14.7622 12.556 14.8902 12.884C15.0262 13.212 15.0942 13.576 15.0942 13.976V14.192C15.0942 14.592 15.0302 14.972 14.9022 15.332C14.7742 15.684 14.5862 16 14.3382 16.28C14.0902 16.552 13.7822 16.768 13.4142 16.928C13.0462 17.088 12.6222 17.168 12.1422 17.168C11.6542 17.168 11.2222 17.096 10.8462 16.952C10.4702 16.808 10.1542 16.608 9.89817 16.352C9.64217 16.096 9.44617 15.796 9.31017 15.452C9.18217 15.1 9.11817 14.72 9.11817 14.312V13.976H10.1262V14.24C10.1262 14.904 10.3102 15.404 10.6782 15.74C11.0542 16.068 11.5422 16.232 12.1422 16.232C12.4622 16.232 12.7422 16.176 12.9822 16.064C13.2302 15.944 13.4342 15.788 13.5942 15.596C13.7622 15.396 13.8862 15.168 13.9662 14.912C14.0462 14.648 14.0862 14.376 14.0862 14.096V14.024C14.0862 13.776 14.0422 13.544 13.9542 13.328C13.8742 13.112 13.7582 12.924 13.6062 12.764C13.4622 12.604 13.2822 12.48 13.0662 12.392C12.8582 12.296 12.6302 12.248 12.3822 12.248C12.2142 12.248 12.0582 12.272 11.9142 12.32C11.7782 12.368 11.6582 12.432 11.5542 12.512C11.4502 12.584 11.3622 12.668 11.2902 12.764C11.2262 12.86 11.1822 12.952 11.1582 13.04H9.26217Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (70).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Zain Botosh</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.7622 11.048C13.7622 10.528 13.6022 10.112 13.2822 9.8C12.9622 9.48 12.5182 9.32 11.9502 9.32C11.6782 9.32 11.4262 9.368 11.1942 9.464C10.9702 9.56 10.7742 9.7 10.6062 9.884C10.4462 10.06 10.3182 10.272 10.2222 10.52C10.1342 10.768 10.0902 11.04 10.0902 11.336V12.584H10.2342C10.4262 12.232 10.6982 11.956 11.0502 11.756C11.4102 11.556 11.8102 11.456 12.2502 11.456C12.6342 11.456 12.9902 11.52 13.3182 11.648C13.6462 11.768 13.9262 11.948 14.1582 12.188C14.3982 12.428 14.5822 12.72 14.7102 13.064C14.8462 13.4 14.9142 13.784 14.9142 14.216V14.36C14.9142 14.776 14.8382 15.156 14.6862 15.5C14.5422 15.844 14.3382 16.14 14.0742 16.388C13.8182 16.636 13.5102 16.828 13.1502 16.964C12.7982 17.1 12.4142 17.168 11.9982 17.168C11.5822 17.168 11.1942 17.1 10.8342 16.964C10.4822 16.828 10.1742 16.64 9.91017 16.4C9.65417 16.152 9.45017 15.86 9.29817 15.524C9.15417 15.18 9.08217 14.804 9.08217 14.396V11.336C9.08217 10.896 9.15817 10.496 9.31017 10.136C9.46217 9.776 9.67017 9.472 9.93417 9.224C10.1982 8.968 10.5022 8.772 10.8462 8.636C11.1982 8.5 11.5742 8.432 11.9742 8.432C12.3742 8.432 12.7462 8.492 13.0902 8.612C13.4342 8.732 13.7302 8.908 13.9782 9.14C14.2262 9.364 14.4182 9.64 14.5542 9.968C14.6982 10.288 14.7702 10.648 14.7702 11.048H13.7622ZM11.9982 16.28C12.2862 16.28 12.5462 16.236 12.7782 16.148C13.0182 16.052 13.2222 15.92 13.3902 15.752C13.5582 15.584 13.6862 15.384 13.7742 15.152C13.8622 14.92 13.9062 14.664 13.9062 14.384V14.24C13.9062 13.96 13.8582 13.704 13.7622 13.472C13.6662 13.24 13.5342 13.04 13.3662 12.872C13.1982 12.704 12.9942 12.576 12.7542 12.488C12.5222 12.392 12.2702 12.344 11.9982 12.344C11.7262 12.344 11.4742 12.392 11.2422 12.488C11.0102 12.584 10.8062 12.716 10.6302 12.884C10.4622 13.052 10.3302 13.248 10.2342 13.472C10.1382 13.696 10.0902 13.936 10.0902 14.192V14.42C10.0902 14.684 10.1342 14.932 10.2222 15.164C10.3102 15.388 10.4382 15.584 10.6062 15.752C10.7742 15.92 10.9742 16.052 11.2062 16.148C11.4462 16.236 11.7102 16.28 11.9982 16.28Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (71).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Talan Korsgaard</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.19017 8.6H14.8062V10.064L11.2662 15.416C11.0982 15.672 10.9702 15.892 10.8822 16.076C10.7942 16.26 10.7502 16.448 10.7502 16.64V17H9.76617V16.568C9.76617 16.424 9.77817 16.288 9.80217 16.16C9.83417 16.032 9.87817 15.904 9.93417 15.776C9.99817 15.64 10.0742 15.5 10.1622 15.356C10.2582 15.204 10.3702 15.032 10.4982 14.84L13.9422 9.68V9.536H9.19017V8.6Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (72).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Haylie Dias</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.8902 17.168C11.4662 17.168 11.0822 17.112 10.7382 17C10.3942 16.88 10.0982 16.72 9.85017 16.52C9.60217 16.312 9.41017 16.072 9.27417 15.8C9.14617 15.52 9.08217 15.216 9.08217 14.888V14.744C9.08217 14.456 9.12617 14.2 9.21417 13.976C9.30217 13.752 9.41817 13.556 9.56217 13.388C9.70617 13.22 9.87017 13.08 10.0542 12.968C10.2462 12.856 10.4422 12.772 10.6422 12.716V12.572C10.4582 12.516 10.2862 12.432 10.1262 12.32C9.96617 12.208 9.82217 12.076 9.69417 11.924C9.57417 11.772 9.47817 11.6 9.40617 11.408C9.33417 11.208 9.29817 10.992 9.29817 10.76V10.616C9.29817 10.296 9.36217 10.004 9.49017 9.74C9.61817 9.468 9.79817 9.236 10.0302 9.044C10.2702 8.852 10.5502 8.704 10.8702 8.6C11.1982 8.488 11.5622 8.432 11.9622 8.432H12.0342C12.4262 8.432 12.7862 8.488 13.1142 8.6C13.4422 8.704 13.7222 8.852 13.9542 9.044C14.1942 9.236 14.3782 9.468 14.5062 9.74C14.6342 10.004 14.6982 10.296 14.6982 10.616V10.76C14.6982 10.992 14.6622 11.208 14.5902 11.408C14.5182 11.6 14.4182 11.772 14.2902 11.924C14.1702 12.076 14.0262 12.208 13.8582 12.32C13.6982 12.432 13.5302 12.516 13.3542 12.572V12.716C13.5542 12.772 13.7462 12.856 13.9302 12.968C14.1222 13.08 14.2902 13.22 14.4342 13.388C14.5782 13.556 14.6942 13.752 14.7822 13.976C14.8702 14.2 14.9142 14.456 14.9142 14.744V14.888C14.9142 15.216 14.8462 15.52 14.7102 15.8C14.5822 16.072 14.3942 16.312 14.1462 16.52C13.8982 16.72 13.6022 16.88 13.2582 17C12.9142 17.112 12.5302 17.168 12.1062 17.168H11.8902ZM12.0702 16.256C12.6142 16.256 13.0542 16.116 13.3902 15.836C13.7342 15.556 13.9062 15.192 13.9062 14.744V14.672C13.9062 14.176 13.7302 13.792 13.3782 13.52C13.0342 13.248 12.5862 13.112 12.0342 13.112H11.9622C11.4102 13.112 10.9582 13.248 10.6062 13.52C10.2622 13.792 10.0902 14.176 10.0902 14.672V14.744C10.0902 15.192 10.2582 15.556 10.5942 15.836C10.9382 16.116 11.3822 16.256 11.9262 16.256H12.0702ZM11.9982 12.176C12.5022 12.176 12.9102 12.044 13.2222 11.78C13.5342 11.516 13.6902 11.184 13.6902 10.784V10.712C13.6902 10.304 13.5342 9.976 13.2222 9.728C12.9182 9.472 12.5102 9.344 11.9982 9.344C11.4862 9.344 11.0742 9.472 10.7622 9.728C10.4582 9.976 10.3062 10.304 10.3062 10.712V10.784C10.3062 11.184 10.4622 11.516 10.7742 11.78C11.0862 12.044 11.4942 12.176 11.9982 12.176Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (73).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">James Donin</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.2342 14.552C10.2342 15.072 10.3942 15.492 10.7142 15.812C11.0342 16.124 11.4782 16.28 12.0462 16.28C12.3182 16.28 12.5662 16.232 12.7902 16.136C13.0222 16.04 13.2182 15.904 13.3782 15.728C13.5462 15.544 13.6742 15.332 13.7622 15.092C13.8582 14.844 13.9062 14.568 13.9062 14.264V13.016H13.7622C13.5782 13.368 13.3142 13.644 12.9702 13.844C12.6262 14.044 12.2262 14.144 11.7702 14.144C11.3782 14.144 11.0182 14.084 10.6902 13.964C10.3622 13.844 10.0782 13.668 9.83817 13.436C9.59817 13.196 9.41017 12.908 9.27417 12.572C9.14617 12.236 9.08217 11.852 9.08217 11.42V11.276C9.08217 10.86 9.15417 10.48 9.29817 10.136C9.44217 9.784 9.64217 9.484 9.89817 9.236C10.1622 8.98 10.4702 8.784 10.8222 8.648C11.1822 8.504 11.5742 8.432 11.9982 8.432C12.4222 8.432 12.8102 8.504 13.1622 8.648C13.5222 8.784 13.8302 8.976 14.0862 9.224C14.3502 9.472 14.5542 9.768 14.6982 10.112C14.8422 10.456 14.9142 10.832 14.9142 11.24V14.264C14.9142 14.712 14.8382 15.116 14.6862 15.476C14.5422 15.828 14.3382 16.132 14.0742 16.388C13.8182 16.636 13.5142 16.828 13.1622 16.964C12.8102 17.1 12.4302 17.168 12.0222 17.168C11.6142 17.168 11.2382 17.108 10.8942 16.988C10.5502 16.868 10.2542 16.696 10.0062 16.472C9.75817 16.24 9.56617 15.964 9.43017 15.644C9.29417 15.316 9.22617 14.952 9.22617 14.552H10.2342ZM11.9982 9.32C11.7102 9.32 11.4462 9.368 11.2062 9.464C10.9742 9.56 10.7742 9.696 10.6062 9.872C10.4382 10.048 10.3102 10.256 10.2222 10.496C10.1342 10.728 10.0902 10.98 10.0902 11.252V11.396C10.0902 11.676 10.1382 11.932 10.2342 12.164C10.3302 12.388 10.4622 12.584 10.6302 12.752C10.7982 12.912 10.9982 13.036 11.2302 13.124C11.4622 13.212 11.7182 13.256 11.9982 13.256C12.2702 13.256 12.5222 13.212 12.7542 13.124C12.9862 13.028 13.1862 12.9 13.3542 12.74C13.5302 12.58 13.6662 12.388 13.7622 12.164C13.8582 11.94 13.9062 11.7 13.9062 11.444V11.216C13.9062 10.952 13.8622 10.704 13.7742 10.472C13.6862 10.24 13.5582 10.04 13.3902 9.872C13.2222 9.696 13.0182 9.56 12.7782 9.464C12.5462 9.368 12.2862 9.32 11.9982 9.32Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (74).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Erin Siphron</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM13.22 11.864C13.22 10.776 13.48 9.932 14 9.332C14.52 8.732 15.244 8.432 16.172 8.432C17.1 8.432 17.824 8.732 18.344 9.332C18.864 9.932 19.124 10.776 19.124 11.864V13.736C19.124 14.856 18.864 15.708 18.344 16.292C17.824 16.876 17.1 17.168 16.172 17.168C15.244 17.168 14.52 16.876 14 16.292C13.48 15.708 13.22 14.856 13.22 13.736V11.864ZM16.172 16.256C16.82 16.256 17.304 16.032 17.624 15.584C17.952 15.128 18.116 14.488 18.116 13.664V11.936C18.116 11.552 18.076 11.204 17.996 10.892C17.916 10.572 17.792 10.3 17.624 10.076C17.464 9.844 17.26 9.664 17.012 9.536C16.772 9.408 16.492 9.344 16.172 9.344C15.844 9.344 15.56 9.408 15.32 9.536C15.08 9.664 14.876 9.844 14.708 10.076C14.548 10.3 14.428 10.572 14.348 10.892C14.268 11.204 14.228 11.552 14.228 11.936V13.664C14.228 14.488 14.388 15.128 14.708 15.584C15.036 16.032 15.524 16.256 16.172 16.256ZM15.404 12.8C15.404 12.592 15.48 12.412 15.632 12.26C15.784 12.108 15.964 12.032 16.172 12.032C16.38 12.032 16.56 12.108 16.712 12.26C16.864 12.412 16.94 12.592 16.94 12.8C16.94 13.008 16.864 13.188 16.712 13.34C16.56 13.492 16.38 13.568 16.172 13.568C15.964 13.568 15.784 13.492 15.632 13.34C15.48 13.188 15.404 13.008 15.404 12.8Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (75).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Cristofer Levin</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM15.728 16.064V9.044H15.584L14.204 12.2H13.208V12.128L14.78 8.6H16.736V16.064H19.112V17H13.352V16.064H15.728Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (76).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Alena Schleifer</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM19.028 16.064V17H13.34V15.56C13.34 15.176 13.404 14.844 13.532 14.564C13.66 14.276 13.84 14.032 14.072 13.832C14.312 13.624 14.6 13.452 14.936 13.316C15.272 13.18 15.652 13.064 16.076 12.968C16.788 12.808 17.3 12.58 17.612 12.284C17.932 11.988 18.092 11.624 18.092 11.192V11.12C18.092 10.904 18.056 10.692 17.984 10.484C17.912 10.276 17.8 10.088 17.648 9.92C17.496 9.752 17.3 9.62 17.06 9.524C16.828 9.42 16.548 9.368 16.22 9.368C15.604 9.368 15.124 9.556 14.78 9.932C14.444 10.308 14.276 10.808 14.276 11.432V11.96H13.268V11.36C13.268 10.976 13.332 10.608 13.46 10.256C13.588 9.904 13.776 9.592 14.024 9.32C14.272 9.048 14.58 8.832 14.948 8.672C15.316 8.512 15.74 8.432 16.22 8.432C16.708 8.432 17.132 8.508 17.492 8.66C17.852 8.804 18.152 9 18.392 9.248C18.632 9.488 18.808 9.764 18.92 10.076C19.04 10.38 19.1 10.692 19.1 11.012V11.228C19.1 11.868 18.9 12.416 18.5 12.872C18.1 13.32 17.46 13.64 16.58 13.832C15.812 14 15.248 14.224 14.888 14.504C14.528 14.776 14.348 15.176 14.348 15.704V16.064H19.028Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (77).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Dulce Vetrovs</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM15.344 12.824V11.432L18.08 9.68V9.536H13.328V8.6H18.944V10.136L16.208 11.888V12.032H16.688C17.008 12.032 17.316 12.084 17.612 12.188C17.908 12.292 18.168 12.444 18.392 12.644C18.624 12.844 18.808 13.092 18.944 13.388C19.088 13.676 19.16 14.012 19.16 14.396V14.612C19.16 14.972 19.088 15.308 18.944 15.62C18.8 15.932 18.6 16.204 18.344 16.436C18.088 16.66 17.784 16.84 17.432 16.976C17.088 17.104 16.712 17.168 16.304 17.168C15.832 17.168 15.408 17.096 15.032 16.952C14.656 16.808 14.336 16.612 14.072 16.364C13.808 16.108 13.604 15.812 13.46 15.476C13.324 15.132 13.256 14.768 13.256 14.384V13.736H14.264V14.312C14.264 14.616 14.312 14.888 14.408 15.128C14.512 15.36 14.652 15.56 14.828 15.728C15.012 15.888 15.228 16.012 15.476 16.1C15.724 16.188 15.992 16.232 16.28 16.232C16.544 16.232 16.788 16.188 17.012 16.1C17.244 16.012 17.444 15.892 17.612 15.74C17.78 15.58 17.912 15.396 18.008 15.188C18.104 14.972 18.152 14.744 18.152 14.504V14.432C18.152 13.928 17.992 13.536 17.672 13.256C17.352 12.968 16.952 12.824 16.472 12.824H15.344Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (78).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Nolan Siphron</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM16.028 8.6H17.984V14.48H19.28V15.416H17.984V17H16.976V15.416H13.088V14.024L16.028 8.6ZM13.952 14.336V14.48H16.976V9.032H16.832L13.952 14.336Z" fill="#858584"/>
+                </svg>
+
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (79).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Omar Stanton</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM13.436 13.04V8.6H18.692V9.536H14.42V12.536H14.564C14.644 12.376 14.748 12.224 14.876 12.08C15.004 11.928 15.152 11.796 15.32 11.684C15.496 11.572 15.692 11.484 15.908 11.42C16.124 11.348 16.364 11.312 16.628 11.312C17.012 11.312 17.364 11.376 17.684 11.504C18.012 11.632 18.292 11.812 18.524 12.044C18.756 12.276 18.936 12.556 19.064 12.884C19.2 13.212 19.268 13.576 19.268 13.976V14.192C19.268 14.592 19.204 14.972 19.076 15.332C18.948 15.684 18.76 16 18.512 16.28C18.264 16.552 17.956 16.768 17.588 16.928C17.22 17.088 16.796 17.168 16.316 17.168C15.828 17.168 15.396 17.096 15.02 16.952C14.644 16.808 14.328 16.608 14.072 16.352C13.816 16.096 13.62 15.796 13.484 15.452C13.356 15.1 13.292 14.72 13.292 14.312V13.976H14.3V14.24C14.3 14.904 14.484 15.404 14.852 15.74C15.228 16.068 15.716 16.232 16.316 16.232C16.636 16.232 16.916 16.176 17.156 16.064C17.404 15.944 17.608 15.788 17.768 15.596C17.936 15.396 18.06 15.168 18.14 14.912C18.22 14.648 18.26 14.376 18.26 14.096V14.024C18.26 13.776 18.216 13.544 18.128 13.328C18.048 13.112 17.932 12.924 17.78 12.764C17.636 12.604 17.456 12.48 17.24 12.392C17.032 12.296 16.804 12.248 16.556 12.248C16.388 12.248 16.232 12.272 16.088 12.32C15.952 12.368 15.832 12.432 15.728 12.512C15.624 12.584 15.536 12.668 15.464 12.764C15.4 12.86 15.356 12.952 15.332 13.04H13.436Z" fill="#858584"/>
+                    </svg>
+                    
+                    
+                    
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (80).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Omar Lipshutz</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM17.936 11.048C17.936 10.528 17.776 10.112 17.456 9.8C17.136 9.48 16.692 9.32 16.124 9.32C15.852 9.32 15.6 9.368 15.368 9.464C15.144 9.56 14.948 9.7 14.78 9.884C14.62 10.06 14.492 10.272 14.396 10.52C14.308 10.768 14.264 11.04 14.264 11.336V12.584H14.408C14.6 12.232 14.872 11.956 15.224 11.756C15.584 11.556 15.984 11.456 16.424 11.456C16.808 11.456 17.164 11.52 17.492 11.648C17.82 11.768 18.1 11.948 18.332 12.188C18.572 12.428 18.756 12.72 18.884 13.064C19.02 13.4 19.088 13.784 19.088 14.216V14.36C19.088 14.776 19.012 15.156 18.86 15.5C18.716 15.844 18.512 16.14 18.248 16.388C17.992 16.636 17.684 16.828 17.324 16.964C16.972 17.1 16.588 17.168 16.172 17.168C15.756 17.168 15.368 17.1 15.008 16.964C14.656 16.828 14.348 16.64 14.084 16.4C13.828 16.152 13.624 15.86 13.472 15.524C13.328 15.18 13.256 14.804 13.256 14.396V11.336C13.256 10.896 13.332 10.496 13.484 10.136C13.636 9.776 13.844 9.472 14.108 9.224C14.372 8.968 14.676 8.772 15.02 8.636C15.372 8.5 15.748 8.432 16.148 8.432C16.548 8.432 16.92 8.492 17.264 8.612C17.608 8.732 17.904 8.908 18.152 9.14C18.4 9.364 18.592 9.64 18.728 9.968C18.872 10.288 18.944 10.648 18.944 11.048H17.936ZM16.172 16.28C16.46 16.28 16.72 16.236 16.952 16.148C17.192 16.052 17.396 15.92 17.564 15.752C17.732 15.584 17.86 15.384 17.948 15.152C18.036 14.92 18.08 14.664 18.08 14.384V14.24C18.08 13.96 18.032 13.704 17.936 13.472C17.84 13.24 17.708 13.04 17.54 12.872C17.372 12.704 17.168 12.576 16.928 12.488C16.696 12.392 16.444 12.344 16.172 12.344C15.9 12.344 15.648 12.392 15.416 12.488C15.184 12.584 14.98 12.716 14.804 12.884C14.636 13.052 14.504 13.248 14.408 13.472C14.312 13.696 14.264 13.936 14.264 14.192V14.42C14.264 14.684 14.308 14.932 14.396 15.164C14.484 15.388 14.612 15.584 14.78 15.752C14.948 15.92 15.148 16.052 15.38 16.148C15.62 16.236 15.884 16.28 16.172 16.28Z" fill="#858584"/>
+                    </svg>
+                    
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (81).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Terry Donin</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM13.364 8.6H18.98V10.064L15.44 15.416C15.272 15.672 15.144 15.892 15.056 16.076C14.968 16.26 14.924 16.448 14.924 16.64V17H13.94V16.568C13.94 16.424 13.952 16.288 13.976 16.16C14.008 16.032 14.052 15.904 14.108 15.776C14.172 15.64 14.248 15.5 14.336 15.356C14.432 15.204 14.544 15.032 14.672 14.84L18.116 9.68V9.536H13.364V8.6Z" fill="#858584"/>
+                    </svg>
+                    
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (82).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Erin Botosh</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM16.064 17.168C15.64 17.168 15.256 17.112 14.912 17C14.568 16.88 14.272 16.72 14.024 16.52C13.776 16.312 13.584 16.072 13.448 15.8C13.32 15.52 13.256 15.216 13.256 14.888V14.744C13.256 14.456 13.3 14.2 13.388 13.976C13.476 13.752 13.592 13.556 13.736 13.388C13.88 13.22 14.044 13.08 14.228 12.968C14.42 12.856 14.616 12.772 14.816 12.716V12.572C14.632 12.516 14.46 12.432 14.3 12.32C14.14 12.208 13.996 12.076 13.868 11.924C13.748 11.772 13.652 11.6 13.58 11.408C13.508 11.208 13.472 10.992 13.472 10.76V10.616C13.472 10.296 13.536 10.004 13.664 9.74C13.792 9.468 13.972 9.236 14.204 9.044C14.444 8.852 14.724 8.704 15.044 8.6C15.372 8.488 15.736 8.432 16.136 8.432H16.208C16.6 8.432 16.96 8.488 17.288 8.6C17.616 8.704 17.896 8.852 18.128 9.044C18.368 9.236 18.552 9.468 18.68 9.74C18.808 10.004 18.872 10.296 18.872 10.616V10.76C18.872 10.992 18.836 11.208 18.764 11.408C18.692 11.6 18.592 11.772 18.464 11.924C18.344 12.076 18.2 12.208 18.032 12.32C17.872 12.432 17.704 12.516 17.528 12.572V12.716C17.728 12.772 17.92 12.856 18.104 12.968C18.296 13.08 18.464 13.22 18.608 13.388C18.752 13.556 18.868 13.752 18.956 13.976C19.044 14.2 19.088 14.456 19.088 14.744V14.888C19.088 15.216 19.02 15.52 18.884 15.8C18.756 16.072 18.568 16.312 18.32 16.52C18.072 16.72 17.776 16.88 17.432 17C17.088 17.112 16.704 17.168 16.28 17.168H16.064ZM16.244 16.256C16.788 16.256 17.228 16.116 17.564 15.836C17.908 15.556 18.08 15.192 18.08 14.744V14.672C18.08 14.176 17.904 13.792 17.552 13.52C17.208 13.248 16.76 13.112 16.208 13.112H16.136C15.584 13.112 15.132 13.248 14.78 13.52C14.436 13.792 14.264 14.176 14.264 14.672V14.744C14.264 15.192 14.432 15.556 14.768 15.836C15.112 16.116 15.556 16.256 16.1 16.256H16.244ZM16.172 12.176C16.676 12.176 17.084 12.044 17.396 11.78C17.708 11.516 17.864 11.184 17.864 10.784V10.712C17.864 10.304 17.708 9.976 17.396 9.728C17.092 9.472 16.684 9.344 16.172 9.344C15.66 9.344 15.248 9.472 14.936 9.728C14.632 9.976 14.48 10.304 14.48 10.712V10.784C14.48 11.184 14.636 11.516 14.948 11.78C15.26 12.044 15.668 12.176 16.172 12.176Z" fill="#858584"/>
+                    </svg>
+                    
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (83).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Cheyenne Rhiel</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.38034 16.064V9.044H8.23634L6.85634 12.2H5.86034V12.128L7.43234 8.6H9.38834V16.064H11.7643V17H6.00434V16.064H8.38034ZM14.408 14.552C14.408 15.072 14.568 15.492 14.888 15.812C15.208 16.124 15.652 16.28 16.22 16.28C16.492 16.28 16.74 16.232 16.964 16.136C17.196 16.04 17.392 15.904 17.552 15.728C17.72 15.544 17.848 15.332 17.936 15.092C18.032 14.844 18.08 14.568 18.08 14.264V13.016H17.936C17.752 13.368 17.488 13.644 17.144 13.844C16.8 14.044 16.4 14.144 15.944 14.144C15.552 14.144 15.192 14.084 14.864 13.964C14.536 13.844 14.252 13.668 14.012 13.436C13.772 13.196 13.584 12.908 13.448 12.572C13.32 12.236 13.256 11.852 13.256 11.42V11.276C13.256 10.86 13.328 10.48 13.472 10.136C13.616 9.784 13.816 9.484 14.072 9.236C14.336 8.98 14.644 8.784 14.996 8.648C15.356 8.504 15.748 8.432 16.172 8.432C16.596 8.432 16.984 8.504 17.336 8.648C17.696 8.784 18.004 8.976 18.26 9.224C18.524 9.472 18.728 9.768 18.872 10.112C19.016 10.456 19.088 10.832 19.088 11.24V14.264C19.088 14.712 19.012 15.116 18.86 15.476C18.716 15.828 18.512 16.132 18.248 16.388C17.992 16.636 17.688 16.828 17.336 16.964C16.984 17.1 16.604 17.168 16.196 17.168C15.788 17.168 15.412 17.108 15.068 16.988C14.724 16.868 14.428 16.696 14.18 16.472C13.932 16.24 13.74 15.964 13.604 15.644C13.468 15.316 13.4 14.952 13.4 14.552H14.408ZM16.172 9.32C15.884 9.32 15.62 9.368 15.38 9.464C15.148 9.56 14.948 9.696 14.78 9.872C14.612 10.048 14.484 10.256 14.396 10.496C14.308 10.728 14.264 10.98 14.264 11.252V11.396C14.264 11.676 14.312 11.932 14.408 12.164C14.504 12.388 14.636 12.584 14.804 12.752C14.972 12.912 15.172 13.036 15.404 13.124C15.636 13.212 15.892 13.256 16.172 13.256C16.444 13.256 16.696 13.212 16.928 13.124C17.16 13.028 17.36 12.9 17.528 12.74C17.704 12.58 17.84 12.388 17.936 12.164C18.032 11.94 18.08 11.7 18.08 11.444V11.216C18.08 10.952 18.036 10.704 17.948 10.472C17.86 10.24 17.732 10.04 17.564 9.872C17.396 9.696 17.192 9.56 16.952 9.464C16.72 9.368 16.46 9.32 16.172 9.32Z" fill="#858584"/>
+                    </svg>
+                    
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (84).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Jaxson Vaccaro</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+<div class="container gx-5 pb-3"id="smavatar">
+    <div class="row pt-1"style="border: 1px solid #3B3B3B; border-radius: 20px; background-color: #3b3b3b; height:37px;">
+            <div class="col-1 pt-" style="text-align: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.6803 16.064V17H5.99234V15.56C5.99234 15.176 6.05634 14.844 6.18434 14.564C6.31234 14.276 6.49234 14.032 6.72434 13.832C6.96434 13.624 7.25234 13.452 7.58834 13.316C7.92434 13.18 8.30434 13.064 8.72834 12.968C9.44034 12.808 9.95234 12.58 10.2643 12.284C10.5843 11.988 10.7443 11.624 10.7443 11.192V11.12C10.7443 10.904 10.7083 10.692 10.6363 10.484C10.5643 10.276 10.4523 10.088 10.3003 9.92C10.1483 9.752 9.95234 9.62 9.71234 9.524C9.48034 9.42 9.20034 9.368 8.87234 9.368C8.25634 9.368 7.77634 9.556 7.43234 9.932C7.09634 10.308 6.92834 10.808 6.92834 11.432V11.96H5.92034V11.36C5.92034 10.976 5.98434 10.608 6.11234 10.256C6.24034 9.904 6.42834 9.592 6.67634 9.32C6.92434 9.048 7.23234 8.832 7.60034 8.672C7.96834 8.512 8.39234 8.432 8.87234 8.432C9.36034 8.432 9.78434 8.508 10.1443 8.66C10.5043 8.804 10.8043 9 11.0443 9.248C11.2843 9.488 11.4603 9.764 11.5723 10.076C11.6923 10.38 11.7523 10.692 11.7523 11.012V11.228C11.7523 11.868 11.5523 12.416 11.1523 12.872C10.7523 13.32 10.1123 13.64 9.23234 13.832C8.46434 14 7.90034 14.224 7.54034 14.504C7.18034 14.776 7.00034 15.176 7.00034 15.704V16.064H11.6803ZM13.22 11.864C13.22 10.776 13.48 9.932 14 9.332C14.52 8.732 15.244 8.432 16.172 8.432C17.1 8.432 17.824 8.732 18.344 9.332C18.864 9.932 19.124 10.776 19.124 11.864V13.736C19.124 14.856 18.864 15.708 18.344 16.292C17.824 16.876 17.1 17.168 16.172 17.168C15.244 17.168 14.52 16.876 14 16.292C13.48 15.708 13.22 14.856 13.22 13.736V11.864ZM16.172 16.256C16.82 16.256 17.304 16.032 17.624 15.584C17.952 15.128 18.116 14.488 18.116 13.664V11.936C18.116 11.552 18.076 11.204 17.996 10.892C17.916 10.572 17.792 10.3 17.624 10.076C17.464 9.844 17.26 9.664 17.012 9.536C16.772 9.408 16.492 9.344 16.172 9.344C15.844 9.344 15.56 9.408 15.32 9.536C15.08 9.664 14.876 9.844 14.708 10.076C14.548 10.3 14.428 10.572 14.348 10.892C14.268 11.204 14.228 11.552 14.228 11.936V13.664C14.228 14.488 14.388 15.128 14.708 15.584C15.036 16.032 15.524 16.256 16.172 16.256ZM15.404 12.8C15.404 12.592 15.48 12.412 15.632 12.26C15.784 12.108 15.964 12.032 16.172 12.032C16.38 12.032 16.56 12.108 16.712 12.26C16.864 12.412 16.94 12.592 16.94 12.8C16.94 13.008 16.864 13.188 16.712 13.34C16.56 13.492 16.38 13.568 16.172 13.568C15.964 13.568 15.784 13.492 15.632 13.34C15.48 13.188 15.404 13.008 15.404 12.8Z" fill="#858584"/>
+                    </svg>
+                    
+            </div>          
+            <div class=" col-6 " style="justify-content: center;">
+                <img src="msavathar/Avatar Placeholder (84).png">
+                    
+                <b style="color: #ffffff; font-size: 16px;" id="jaydon">Jordyn Dias</b>
+            </div>
+            <div class="col-5  pe-4" style="text-align: right;">
+                <p style="color: #ffffff; text-align: right;">12.4 ETH</p>
+            </div>
+    </div>
+</div>
+    
+    
+
+<div class="section mt-1" style="background-color: #3b3b3b;" >
+    <div class="container pt-5"  id="footer">
+        <div class="row" style="margin-bottom: 25px;">
+            <div class="col-md-4 col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="users/logo.png">
+                    <br><br>
+                        <p style="color: #CCCCCC;">NFT marketplace UI created <br> with Anima for Figma.</p>
+                    
+                        <p style="color: #CCCCCC;">Join our community</p>
+
+                        <img src="users/Icons.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="row ">
+                    <div class="col-12">
+                        <strong style="color: #FFFFFF;">Explore</strong>
+                        <br><br>
+                        <p style="color: #CCCCCC;">Marketplace</p>
+                    
+                        <p style="color: #CCCCCC;">Rankings</p>
+
+                        <p style="color: #CCCCCC;">Connect a wallet </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <strong style="color: #FFFFFF;;">Join our weekly digest </strong>
+                        <br><br>
+                        <p style="color: #CCCCCC;">Get exclusive promotions & updates <br> straight to your inbox.</p>
+
+
+                        <div class="input-group" id="end1">
+                            <input type="text" id="end2" class="form-control rounded-5 " placeholder="Enter your email here" style="z-index: 1; padding-right: 50px;  ">
+                           
+                            <div class="  rounded-5 pt-3 pb-3 ps-5 pe-5" style="background: #A259FF; margin-left: -50px; z-index: 2;">                               
+                                <span class="text-light">Subscribe</span>
+                            </div>
+                          </div>
+                          <div id="end">
+                            <div class="mb-4" >
+                              <input type="text" class="form-control rounded-5 p-3"  placeholder="Enter your email here">
+                          </div>
+                          <div class="  rounded-5 pt-3 pb-3 ps-5 pe-5 mb-5" style="background: #A259FF; text-align: center;">                             
+                              <span class="text-light">Subscribe</span>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container" style=" padding-top: 25px; padding-bottom: 25px;">
+            <p style="color: #CCCCCC;">Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    background-color: #2B2B2B;
+}
+::placeholder {
+    color: #858584;
+    opacity: 1;
+    }
+
+#inputi {
+    display: grid;
+}
+#end2 {
+    color: #000;   
+    outline: 0;
+}
+#button5 {
+    background-color:#A259FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: 0;            
+    color: #FFFFFF;       
+    }
+    #input {
+        
+        background-color: #2B2B2B;
+        padding-left: 20px;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px solid #3B3B3B;
+        outline: 0;
+        color: #FFFFFF;
+        
+    }
+    #button {
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: center;
+        padding-left: 30px;
+    }
+    #nft {
+        text-align: center;
+        border: 1px solid #858584;
+        border-top: 0ch;
+        border-left: 0ch;
+        border-right: 0ch;
+        
+    }
+    
+    #footer {
+        border-style:groove;
+        border-color: #858584;
+        border-top: 0ch;
+        border-left: 0ch;
+        border-right: 0ch;
+        
+    }
+    #end1 {
+        outline: 0;
+    }
+    #end {
+        outline: 0;
+    }
+    
+    @media screen and (min-width: 771px) {              
+        #end {
+            display: none;
+        }
+        
+    }
+    @media screen and (max-width: 770px) {
+        
+        #end1 {
+            display: none;
+        }
+        #two {
+        display: none;
+    }  
+    #none{
+        display: none;
+    }
+    #containerfirst {
+        display: none;
+    }
+    #jaydon {
+        font-size: 12px !important; 
+    }
+    }
+    @media screen and (min-width: 771px) {
+        
+        #nonee {
+            display: none;
+        }
+        #smavatar {
+            display: none;
+        }
+    }
+    
